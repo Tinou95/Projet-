@@ -31,7 +31,7 @@ a{
 
 
 
-/* theme */
+
 :root{
     --color-default: #d41e1e;
     --color-link: #333;
@@ -97,6 +97,10 @@ nav ol{
 nav ol li{
     line-height: 2.6rem;
 }
+nav ol li:hover{
+    opacity: 0.7;
+}
+
 section p{
     margin: 1rem;
     padding-top: 1.5rem;
