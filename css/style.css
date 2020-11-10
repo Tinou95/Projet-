@@ -90,6 +90,7 @@ main nav h2, main section h2{
 main .photos img{
     display: block;
     width: 100%;
+    padding-bottom: 2rem;
 }
 nav ol{
     margin: 1.5rem 0;
