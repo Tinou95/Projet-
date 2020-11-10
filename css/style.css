@@ -68,6 +68,11 @@ main h2 {
     font-family: 'Zhi Mang Xing', cursive;
 
 }
+h2::after{
+    content:'\203A';
+    padding-left: 5px;
+    vertical-align: 0.1rem;
+}
 
 
 main nav h2, main section h2{
