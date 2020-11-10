@@ -99,6 +99,7 @@ nav ol li{
 }
 section p{
     margin: 1rem;
+    padding-top: 1.5rem;
     padding: .5rem;
     line-height: 2.6rem;
     text-align: justify;
