@@ -1,5 +1,5 @@
 ## Projet 
-## Tinou95
+## ANDRIEU Quentin
 
 https://tinou95.github.io/Projet-Batman/
 
