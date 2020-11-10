@@ -93,6 +93,7 @@ nav ol li{
     line-height: 2.6rem;
 }
 section p{
+    margin: 1rem;
     padding: .5rem;
     line-height: 2.6rem;
     text-align: justify;
