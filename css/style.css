@@ -31,7 +31,7 @@ a{
 
 
 
-/* theme */
+
 :root{
     --color-default: #d41e1e;
     --color-link: #333;
@@ -68,6 +68,11 @@ main h2 {
     font-family: 'Zhi Mang Xing', cursive;
 
 }
+h2::after{
+    content:'\203A';
+    padding-left: 5px;
+    vertical-align: 0.1rem;
+}
 
 
 main nav h2, main section h2{
@@ -85,6 +90,7 @@ main nav h2, main section h2{
 main .photos img{
     display: block;
     width: 100%;
+    padding-bottom: 2rem;
 }
 nav ol{
     margin: 1.5rem 0;
@@ -92,14 +98,18 @@ nav ol{
 nav ol li{
     line-height: 2.6rem;
 }
+nav ol li:hover{
+    opacity: 0.7;
+}
+
 section p{
+    margin: 1rem;
+    padding-top: 1.5rem;
     padding: .5rem;
     line-height: 2.6rem;
     text-align: justify;
 }
-main section .pictures{
-    padding-bottom: .5rem;
-}
+
 main footer{
     padding: .5rem;
 }
